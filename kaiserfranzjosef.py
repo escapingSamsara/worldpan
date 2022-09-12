@@ -17,6 +17,7 @@ def chooseName(antworten):
 frage = "Wie heisst du denn mein sohn?"
 antworten = ["Kaiser Franz Josef", "FUCK", "Berndt", "PUTIN"]
 
+# Hello Mister CodeBloom
 for i in range(0,10):
     time.sleep(3)
     printQuestion(frage, chooseName(antworten))
