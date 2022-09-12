@@ -13,13 +13,13 @@ def chooseName(antworten):
     return name
 
 
-
 frage = "Wie heisst du denn mein sohn?"
 antworten = ["Kaiser Franz Josef", "FUCK", "Berndt", "PUTIN"]
 
-for i in range(0,10):
-    time.sleep(3)
-    printQuestion(frage, chooseName(antworten))
+if name == "__main__":
+    for i in range(0,10):
+        time.sleep(3)
+        printQuestion(frage, chooseName(antworten))
 
 
 
